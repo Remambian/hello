@@ -7,7 +7,7 @@ orbs:
 jobs:
   build-and-test: # This is the name of the job, feel free to change it to better match what you're trying to do!
     docker:
-      - image: circleci/python: 3.6.1
+      - image: python:3.7.3-stretch
     working_directory: ~/repo
       
     steps:
